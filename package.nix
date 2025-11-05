@@ -8,11 +8,11 @@
 }:
 
 let
-  version = "0.53.0";
+  version = "0.55.0";
 
   src = fetchurl {
     url = "https://registry.npmjs.org/@openai/codex/-/codex-${version}.tgz";
-    hash = "sha256-K4K4NH3vdC2ifHGuY0/v/jdTvugDHSH3zlpw0nio1do=";
+    hash = "sha256-NEH4GelPFCZ1DDWi8rWsLWzapqHRyID7af3x53qtsJo=";
   };
 in
 stdenv.mkDerivation {
