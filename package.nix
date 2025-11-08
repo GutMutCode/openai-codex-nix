@@ -12,7 +12,7 @@ let
 
   src = fetchurl {
     url = "https://registry.npmjs.org/@openai/codex/-/codex-${version}.tgz";
-    hash = "sha256-21A7wRbpykWBgg1FLzzvdYehif8mfwVdqXOq/MRMpM0=";
+    hash = "sha256-EVCPPkF7caE+XF1Fnt/Sx3ZmW5m7BKewqYDZDH3aO7g=";
   };
 in
 stdenv.mkDerivation {
