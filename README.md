@@ -123,7 +123,7 @@ codex --help
 
 ## Version
 
-Current version: **0.56.0**
+Current version: **0.57.0**
 
 This package tracks OpenAI Codex CLI releases from npm registry.
 
